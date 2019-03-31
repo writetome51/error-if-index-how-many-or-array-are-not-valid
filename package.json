@@ -1,0 +1,31 @@
+{
+  "name": "error-if-index-how-many-or-array-are-not-valid",
+  "version": "1.0.0",
+  "description": "Function triggers error if a given index, array, or 'howMany' items request is not valid",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/writetome51/error-if-index-how-many-or-array-are-not-valid.git"
+  },
+  "keywords": [
+    "array",
+    "index",
+    "validation",
+    "checking",
+    "error",
+    "message"
+  ],
+  "author": "Steve Thompson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/writetome51/error-if-index-how-many-or-array-are-not-valid/issues"
+  },
+  "homepage": "https://github.com/writetome51/error-if-index-how-many-or-array-are-not-valid#readme",
+  "dependencies": {
+    "basic-data-handling": "~1.0.15",
+    "error-if-index-not-valid": "~1.0.0"
+  }
+}
