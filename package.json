@@ -1,7 +1,8 @@
 {
   "name": "error-if-index-how-many-or-array-are-not-valid",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Function triggers error if a given index, array, or 'howMany' items request is not valid",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -25,8 +26,8 @@
   },
   "homepage": "https://github.com/writetome51/error-if-index-how-many-or-array-are-not-valid#readme",
   "dependencies": {
-    "error-if-index-not-valid": "~1.0.0",
-    "error-if-not-array": "~1.0.0",
-    "error-if-not-integer-zero-or-greater": "~1.0.0"
+    "error-if-index-not-valid": "^2.0.0",
+    "error-if-not-array": "^2.0.0",
+    "error-if-not-integer-zero-or-greater": "^2.0.0"
   }
 }

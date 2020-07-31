@@ -4,8 +4,8 @@ Triggers error if `index` is not a valid index of `array` (it is allowed to be n
 or `howMany` is not an integer of zero or greater, or `array` is not an array.  
 
 ## Example
-```ts
-function getAdjacentAt(startingIndex, howMany, array): any[] {
+```js
+function getAdjacentAt(startingIndex, howMany, array) {
     // validate arguments:
     errorIfIndex_howMany_orArray_areNotValid(startingIndex, howMany, array);
 
@@ -16,17 +16,12 @@ function getAdjacentAt(startingIndex, howMany, array): any[] {
 ```
 
 ## Installation
-`npm install  error-if-index-how-many-or-array-are-not-valid`
+`npm i  error-if-index-how-many-or-array-are-not-valid`
 
 ## Loading
-```ts
-// if using TypeScript:
+```js
 import { errorIfIndex_howMany_orArray_areNotValid } 
 	from 'error-if-index-how-many-or-array-are-not-valid';
-// if using ES5 JavaScript:
-var errorIfIndex_howMany_orArray_areNotValid = 
-	require('error-if-index-how-many-or-array-are-not-valid')
-	.errorIfIndex_howMany_orArray_areNotValid;
 ```
 
 ## License
