@@ -1,6 +1,6 @@
 {
   "name": "error-if-index-how-many-or-array-are-not-valid",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Function triggers error if a given index, array, or 'howMany' items request is not valid",
   "type": "module",
   "main": "index.js",
@@ -28,6 +28,6 @@
   "dependencies": {
     "error-if-index-not-valid": "^2.0.0",
     "error-if-not-array": "^2.0.0",
-    "error-if-not-integer-zero-or-greater": "^2.0.0"
+    "error-if-not-integer": "^2.0.0"
   }
 }
