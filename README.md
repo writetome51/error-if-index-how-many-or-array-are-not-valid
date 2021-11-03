@@ -1,6 +1,6 @@
 # errorIfIndex_howMany_orArray_areNotValid(<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;index,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;howMany,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;array<br>): void
 
-Triggers error if `array` is not an array, `index` is not a valid index of `array` (it is allowed  
+Triggers error if `array` has no `.length`, `index` is not a valid index of `array` (it is allowed  
 to be negative), or `howMany` is not an integer greater than zero.  
 
 ## Example
